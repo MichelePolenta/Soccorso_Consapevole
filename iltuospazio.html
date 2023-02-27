@@ -1,0 +1,116 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Soccorso Consapevole</title>
+    <link rel="shortcut icon" href="Media/logo.png"/>
+    <link rel="stylesheet" href="scheme.css">
+    <link rel="stylesheet" href="Bootstrap.css">
+  </head>
+  <body>
+
+<!-- header del sito  -->
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between p-3 mb-4 border-bottom">
+      <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img class="rounded-lg-3" src="Media/logo.png" alt="80" width="80" margin = 50 alt="immagine che rappresenta il nostro logo, una croce verde con sfondo bianco con all'interno un cuore sorretto 
+        da una mano">
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="primosoccorso.html" class="nav-link">Primo Soccorso</a></li>
+        <li class="nav-item"><a href="esperienze.html" class="nav-link">Esperienze</a></li>
+        <li class="nav-item"><a href="DomandeMain.html" class="nav-link">Domande</a></li>
+        <li class="nav-item"><a href="iltuospazio.html" class="nav-link active">Il tuo spazio</a></li>
+        <li class="nav-item"><a href="contattaci.html" class="nav-link">Contattaci</a></li>
+        <li class="nav-item"><a href="aboutus.html" class="nav-link">Su di noi</a></li>
+      </ul>
+      </div>
+    </header>
+
+
+
+
+    <div class="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <h1 class="fw-bold mb-0 fs-2">Accedi gratis!</h1>
+          </div>
+
+
+          <!-- Form di compilazione per il login -->
+          <div class="modal-body p-5 pt-0">
+            <form class="" data-bitwarden-watching="1">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <a class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" href="homeiltuospazio.html">Accedi</a></button>
+              <a class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" href="registrati.html">Registrati</a></button>
+              <small class="text-muted">Facendo l'accesso accetti i termini e le condizioni.</small>
+              <hr class="my-4">
+              <a class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" href="homeiltuospazio.html">
+                <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+                Entra con Twitter
+              </a>
+              </button>
+              <a class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" href="homeiltuospazio.html">
+                <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
+                Entra con Facebook
+                </a>
+              </button>
+              <a class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" href="homeiltuospazio.html">
+                <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
+                Entra con Google
+              </a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Bottone per la compilazione automatica del numero 118 -->
+    <a href="tel:118" type="button" class="btn btn-primary btn-floating btn-lg rounded-5 border-0" id="btn-telephone" style="display: block;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </a>
+    <!-- Footer del sito -->
+    <hr>
+    <footer class="p-5">
+      <div class="row gx-0">
+        <div class="col-6 col-md-2 mb-3">
+          <h5> Pagine</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="primosoccorso.html" class="nav-link p-0 text-muted">Primo Soccorso</a></li>
+            <li class="nav-item mb-2"><a href="esperienze.html" class="nav-link p-0 text-muted">Esperienze</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Community</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="iltuospazio.html" class="nav-link p-0 text-muted">Il tuo spazio</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Staff</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="contattaci.html" class="nav-link p-0 text-muted">Contattaci</a></li>
+            <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-muted">Su di noi</a></li>
+          </ul>
+        </div>
+    </div>
+    </footer>
+    </body>
+    <script src="code.js" charset="utf-8"></script>
+    <script src="bootstrap.js" charset="utf-8"></script>
+    </html>

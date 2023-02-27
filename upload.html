@@ -1,0 +1,162 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Soccorso Consapevole</title>
+    <link rel="shortcut icon" href="Media/logo.png"/>
+    <link rel="stylesheet" href="scheme.css">
+    <link rel="stylesheet" href="Bootstrap.css">
+  </head>
+  <body>
+
+   <!--  Header del sito -->
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between p-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img class="rounded-lg-3" src="Media/logo.png" alt="80" width="80" margin = 50 alt="immagine che rappresenta il nostro logo, una croce verde con sfondo bianco con all'interno un cuore sorretto 
+          da una mano">
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="primosoccorso.html" class="nav-link">Primo Soccorso</a></li>
+          <li class="nav-item"><a href="esperienze.html" class="nav-link">Esperienze</a></li>
+          <li class="nav-item"><a href="DomandeMain.html" class="nav-link">Domande</a></li>
+          <li class="nav-item"><a href="iltuospazio.html" class="nav-link active">Il tuo spazio</a></li>
+          <li class="nav-item"><a href="contattaci.html" class="nav-link">Contattaci</a></li>
+          <li class="nav-item"><a href="aboutus.html" class="nav-link">Su di noi</a></li>
+        </ul>
+        </div>
+      </header>
+
+
+
+      <!-- Credenziali iniziali utente-->
+    <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" alt="Foto profilo">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                          </svg>
+                    </div>
+                    <div class="col-md-8">
+                        <br>
+                        <h2>Michele Polenta</h2>
+                    </div>
+                </div> <br>
+                <div class="row">
+                  <!-- Form riguardante il contenuto da caricare -->
+                    <div class="container">
+                      <label for="exampleFormControlInput1" class="form-label">Scegli la sezione dove caricare il contenuto</label>
+                    <div class="form-floating">
+
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example " style="padding-top: 10px;">
+
+                          <option selected>Scegli la sezione</option>
+                          <option value="1">Domande</option>
+                          <option value="2">Esperienze</option>
+                        </select>
+                    </div>
+                 </div>
+                </div>
+                <div class="row">
+                    <div class="bd-example">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Titolo</label>
+                          <input type="titolo" class="form-control" id="exampleFormControlInput1" placeholder="Titolo">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Descrizione</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descrizione"></textarea>
+                        </div>
+                        </div>
+                </div>
+                <div class="row">
+                  <!-- I due bottoni per caricare il contenuto o annullare il caricamento -->
+                    <div class="container mb-4" style="margin-left: 40%;">
+                        <a class="btn btn-primary" href="homeiltuospazio.html" type="button">Invia</a>
+                        <a class="btn btn-primary" href="homeiltuospazio.html" type="button">Annulla</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar laterale per la navigazione nella sezione Il tuo spazio-->
+            <div class="col-md-4 col-sm-12">
+                    <div class="row">
+                    <div class="card mb-3" style="width: 18rem;">
+                      <div class="card-body">
+                        <div class="loading">
+                            <svg width="64px" height="48px" style="margin-left: 80px;" alt="Battito cardiaco">
+                                <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+                              <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+                            </svg>
+                          </div>
+                        <h5 class="card-title">Area personale</h5>
+                        <p class="card-text">Nell'area personale<br> puoi riguarare le tue attività, <br>domande ed esperienze <br> caricate. </p>
+                        <a href="homeiltuospazio.html" class="btn btn-primary">Vai all'Area personale</a>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="loading">
+                                <svg width="64px" height="48px" style="margin-left: 80px;" alt="Battito cardiaco">
+                                    <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+                                  <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+                                </svg>
+                              </div>
+                          <h5 class="card-title">Rispondi</h5>
+                          <p class="card-text">In questa sezione chiarirai le <br> perplessità delle altre persone, rispondendo alle loro domande. </p>
+                          <a href="domande.html" class="btn btn-primary">Vai a Rispondi</a>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Bottone per la compilazione automatica del numero 118 -->
+    <a href="tel:118" type="button" class="btn btn-primary btn-floating btn-lg rounded-5 border-0" id="btn-telephone" style="display: block;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </a>
+    <!-- Footer del sito -->
+    <hr>
+    <footer class="p-5">
+      <div class="row gx-0">
+        <div class="col-6 col-md-2 mb-3">
+          <h5> Pagine</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="primosoccorso.html" class="nav-link p-0 text-muted">Primo Soccorso</a></li>
+            <li class="nav-item mb-2"><a href="esperienze.html" class="nav-link p-0 text-muted">Esperienze</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Community</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="iltuospazio.html" class="nav-link p-0 text-muted">Il tuo spazio</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Staff</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="contattaci.html" class="nav-link p-0 text-muted">Contattaci</a></li>
+            <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-muted">Su di noi</a></li>
+          </ul>
+        </div>
+    </div>
+    </footer>
+    </body>
+    <script src="code.js" charset="utf-8"></script>
+    <script src="bootstrap.js" charset="utf-8"></script>
+    </html>
