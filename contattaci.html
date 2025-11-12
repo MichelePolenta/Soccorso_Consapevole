@@ -121,36 +121,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     </div>
     </footer>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const btn = document.querySelector('.btn.btn-primary[type="button"]');
-
-  btn.addEventListener('click', function() {
-    // Raccogli i valori dei campi del form
-    const nome = document.getElementById('floatingNome').value;
-    const cognome = document.getElementById('floatingCognome').value;
-    const email = document.getElementById('floatingMail').value;
-    const messaggio = document.getElementById('floatingMessaggio').value;
-
-    // Invia evento a GTM / GA4 tramite dataLayer
-    window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      'event': 'form_submit_contattaci',
-      'form_nome': nome,
-      'form_cognome': cognome,
-      'form_email': email,
-      'form_messaggio': messaggio
-    });
-
-    // Messaggio di conferma (opzionale)
-    alert('Grazie per averci contattato!');
-  });
-});
-</script>
         </body>
         <script src="code.js" charset="utf-8"></script>
         <script src="bootstrap.js" charset="utf-8"></script>
         </html>
+
 
 
 
